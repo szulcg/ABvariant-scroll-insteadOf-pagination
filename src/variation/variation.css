@@ -1,0 +1,14 @@
+.pagination-wrapper {
+  visibility: hidden;
+}
+
+#CartDrawer .drawer__footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#CartDrawer form {
+  height: 62%;
+  overflow-y: scroll;
+}
