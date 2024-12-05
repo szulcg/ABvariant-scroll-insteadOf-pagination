@@ -3,7 +3,6 @@ import { addToCartRequest } from "../utils/utils";
 export function addAddToCartButton(node) {
   const button = '<button type="button" class="test-addToCart">Add to cart</button>';
   node.insertAdjacentHTML('afterend', button);
-  console.log('main')
 }
 
 export async function addToCart(product) {
